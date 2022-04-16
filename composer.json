@@ -1,0 +1,20 @@
+{
+    "name": "jvillalaz/platzi",
+    "description": "curso de platzi",
+    "type": "no",
+    "authors": [
+        {
+            "name": "Jhoniel",
+            "email": "villalazj2008@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
